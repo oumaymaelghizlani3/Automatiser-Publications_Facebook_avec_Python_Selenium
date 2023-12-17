@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 from selenium.common import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
@@ -41,5 +42,4 @@ wait.until(EC.visibility_of_element_located((By.XPATH, "//*[contains(text(), 'Yo
 print('Post published successfully!')
 
 driver.quit()
-
 
